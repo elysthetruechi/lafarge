@@ -1,0 +1,383 @@
+  .header img{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 80px;
+  }
+  .header .text{
+    text-align: left;
+    font-size: 18px;
+    font-family: arial;
+    position: relative;
+    bottom: 30px;
+    margin-left: 170px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .first h3{
+    font-family: arial;
+    position: relative;
+    margin-left: 20px;
+  }
+  .first label{
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight:600;
+  }
+  .first .blood .dig{
+    display:block;
+  }
+  .first .blood .dig{
+    display: flex;
+    flex-direction: row;
+  }
+  .first .blood .dig .input-row{
+   display:inline-block;
+    font-family: 'Rubik', sans-serif;
+  }
+  .first .blood .dig .input-row .input-group{
+    flex-basis: 45%;
+  }
+  input{
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+    border: none;
+    border-bottom: 3px dotted black;
+    width: 100%;
+    font-size: 15px;
+    outline:none;
+    margin-right:25px;
+    margin-top: 15px;
+  }
+  .med p{
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    font-weight: 550;
+    font-family: arial;
+  }
+.nutrition {  display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . .";
+  }
+  
+  .nut{
+    border: 1px solid black;
+    font-size: 15px;
+    font-family: arial;
+    text-indent: 8px;
+  }
+  .nut1,.nut2,.nut3{
+    font-weight: 600;
+  }
+  .dec{
+    position: relative;
+    top: 40px;
+    margin-left: 20px;
+  }
+  .dec .title{
+    color: rgb(4, 4, 148);
+    font-size: 15px;
+    text-decoration: underline 2px solid black;
+    font-weight: 550;
+    margin-top: 5px;
+  }
+  .dec .body{
+    color: rgb(4, 4, 148);
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .dec .dig{
+    display: flex;
+  }
+  .dec .dig .input-row .input-group{
+    flex-basis:85%;
+  }
+  .dec .dig form .input-row{
+    display:inline-block;
+     font-family: 'Rubik', sans-serif;
+  }
+  .dec .dig .input-row .input-group{
+    flex-basis: 45%;
+  }
+  
+  .dec .dig input{
+    position: relative;
+   top: 0px;
+    left: 20px;
+    border: none;
+    width:150px;
+    border-bottom: 3px dotted black;
+    font-size: 15px;
+    outline:none;
+    margin-top: 15px;
+    z-index:-1;
+    
+  }
+.partb h3{
+    text-decoration: underline 2px solid;
+}
+   .partb{
+    margin-top: 100px;
+    margin-left: 22px;
+   }
+   .partb form .input-row{
+    display:inline-block;
+     font-family: 'Rubik', sans-serif;
+   }
+   .partb form .input-row .input-group{
+     flex-basis: 45%;
+   }
+   .partb form input{
+    position: relative;
+    top: 0px;
+    bottom: 10px;
+     left: 20px;
+     border: none;
+     width:400px;
+     border-bottom: 3px dotted black;
+     font-size: 15px;
+     outline:none;
+     z-index:-1; 
+   }
+   .neu{
+    margin-top: 30px;
+    margin-left: 20px;
+   }
+   .neu .input-row .input-group{
+    flex-basis:85%;
+  }
+  .neu form .input-row{
+    display:inline-block;
+     font-family: 'Rubik', sans-serif;
+  }
+  .neu .input-row .input-group{
+    flex-basis: 45%;
+  }
+  .neu .title{
+    font-weight: 550;
+    font-family: arial;
+  }
+  .neu input{
+    position: relative;
+   top: 0px;
+    left: 20px;
+    border: none;
+    width:400px;
+    border-bottom: 3px dotted black;
+    font-size: 15px;
+    outline:none;
+    margin-top: 15px;
+    z-index:-1;
+    
+  }
+  .blood{
+    display: block;
+    margin-left: 20px;
+  }
+  .blood .dig{
+    display: flex;
+  }
+  .blood .dig .input-row .input-group{
+    flex-basis:85%;
+  }
+  .blood .dig form .input-row{
+    display:inline-block;
+     font-family: 'Rubik', sans-serif;
+  }
+  .blood .dig .input-row .input-group{
+    flex-basis: 45%;
+  }
+  
+  .blood .dig input{
+    position: relative;
+   top: 0px;
+    left: 20px;
+    border: none;
+    width:150px;
+    border-bottom: 3px dotted black;
+    font-size: 15px;
+    outline:none;
+    margin-top: 15px;
+    z-index:-1;
+    
+  }
+  .partc .blood{
+    display: block;
+    margin-left: 20px;
+  }
+  .partc .blood .dig{
+    display: flex;
+  }
+  .partc .blood .dig .input-row .input-group{
+    flex-basis:85%;
+  }
+  .partc .blood .dig form .input-row{
+    display:inline-block;
+     font-family: 'Rubik', sans-serif;
+  }
+  .partc .blood .dig .input-row .input-group{
+    flex-basis: 45%;
+  }
+  .partc{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .partc .title{
+    font-weight: 550;
+    font-size: 13px;
+    text-decoration: underline 2px solid;
+  }
+  .partc .blood .dig input{
+    position: relative;
+   top: 0px;
+    left: 20px;
+    border: none;
+    width:150px;
+    border-bottom: 3px dotted black;
+    font-size: 15px;
+    outline:none;
+    margin-top: 15px;
+    z-index:-1;
+  }
+  .partc .other input{
+    position: relative;
+   top: 0px;
+    left: 20px;
+    border: none;
+    width:380px;
+    border-bottom: 3px dotted black;
+    font-size: 15px;
+    outline:none;
+    margin-top: 15px;
+    z-index:-1;
+  }
+  .patrd {
+    position: relative;
+    top: 50px;
+  }
+  .patrd .title{
+    text-decoration: underline 2px solid;
+  }
+  .rec{
+    margin-top: 80px;
+  }
+  .rec .title{
+    text-decoration: underline 2px solid;
+  }
+  .rec li{
+    list-style:square;
+  }
+  .rec input{
+    position: relative;
+   top: 0px;
+    left: 20px;
+    border: none;
+    width:450px;
+    border-bottom: 3px dotted black;
+    font-size: 15px;
+    outline:none;
+    margin-top: 15px;
+    z-index:-1;
+  }
+  .remarks{
+    margin-top: 20px;
+  }
+  .remarks input{
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+     left: 20px;
+     border: none;
+     width:450px;
+     border-bottom: 3px dotted black;
+     font-size: 15px;
+     outline:none;
+     margin-top: 15px;
+     z-index:-1;
+  }
+  .medi input{
+    position: relative;
+    top: 0px;
+     left:30px;
+     border: none;
+     width:350px;
+     border-bottom: 3px dotted black;
+     font-size: 15px;
+     outline:none;
+     margin-top: 15px;
+     z-index:-1;
+  }
+
+  .alt .blood{
+    display: block;
+    margin-left: 20px;
+  }
+  .alt .blood .dig{
+    display: flex;
+  }
+  .alt .blood .dig .input-row .input-group{
+    flex-basis:85%;
+  }
+  .alt .blood .dig form .input-row{
+    display:inline-block;
+     font-family: 'Rubik', sans-serif;
+  }
+  .alt .blood .dig .input-row .input-group{
+    flex-basis: 45%;
+  }
+  .alt{
+    margin-top: 50px;
+  }
+  
+  .alt .blood .dig input{
+    position: relative;
+   top:0px;
+    left: 0px;
+    border: none;
+    width:150px;
+    border-bottom: 3px dotted black;
+    font-size: 15px;
+    outline:none;
+    margin-top: 15px;
+    z-index:-1;
+  }
+  .alt label{
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .medi label{
+    position: relative;
+    top: 10px;
+    left: 0px;
+  }
